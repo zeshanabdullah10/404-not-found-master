@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://your-demo-link.your-domain">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{404-not-found-master-p16mlgtpl-zeshanabdullah10.vercel.app}">
+    <a href="https://404-not-found-master-p16mlgtpl-zeshanabdullah10.vercel.app">
       Solution
     </a>
     <span> | </span>
@@ -69,6 +69,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/zeshanabdullah10})
-- Twitter [@your-twitter](https://{twitter.com/your-zesabd})
+- Website [your-website.com](https://your-web-site-link)
+- GitHub [@your-username](https://github.com/zeshanabdullah10)
+- Twitter [@your-twitter](https://twitter.com/your-zesabd)
