@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap");
+/* 
+font-family: 'Space Mono', monospace;
+font-family: 'Inconsolata', monospace;
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 15px;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 50%;
+  grid-template-rows: 1fr;
+  grid-template-areas: "image content";
+}
+
+.pageHead {
+  font-family: "Inconsolata", monospace;
+  font-weight: 700;
+  font-size: 1.6rem;
+  padding: 2.67rem 5.133rem;
+  text-transform: uppercase;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.image {
+  grid-area: image;
+  margin: auto auto;
+}
+img {
+  width: 539.22px;
+  height: 414.25px;
+}
+
+.content {
+  grid-area: content;
+  margin: auto auto;
+}
+.content h1 {
+  font-family: "Space Mono", monospace;
+  font-size: 4.2667rem;
+  font-weight: 700;
+  padding-bottom: 36px;
+  margin-right: 120px;
+}
+.content h3 {
+  font-family: "Space Mono", monospace;
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding-bottom: 64px;
+  padding-right: 120px;
+}
+.b1 {
+  padding: 1.6rem 2.9333rem;
+  background-color: black;
+  text-transform: uppercase;
+  font-family: "Space Mono", monospace;
+  font-size: 1rem;
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 11.25px;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "image"
+      "content";
+  }
+  .image {
+    width: 286.83px;
+    height: 238px;
+    margin-top: 109px;
+  }
+  .content {
+    justify-self: center;
+    align-self: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 155px;
+  }
+  .content h3 {
+    padding-right: 0%;
+  }
+  .content h1 {
+    padding-right: 0%;
+    margin-right: 0%;
+  }
+}
